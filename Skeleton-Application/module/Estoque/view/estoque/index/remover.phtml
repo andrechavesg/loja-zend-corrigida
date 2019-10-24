@@ -1,0 +1,7 @@
+<h1>Remover Produto</h1>
+<form method="post" action="<?= $this->url('application',['action' => 'remover']); ?>">
+    <input type="hidden" name="id" value="<?= $id;?>">  
+    <p class="alert alert-danger">Deseja realmente remover o produto da lista?</p>
+    <input type="submit" value="Sim" class="btn btn-danger">
+    <a href="<?= $this->url('application'); ?>"  class="btn btn-primary">Não</a>
+</form>

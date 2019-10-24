@@ -1,0 +1,17 @@
+[Wed Aug 07 13:13:28.486991 2019] [ssl:info] [pid 15:tid 139817409396800] AH01883: Init: Initialized OpenSSL library
+[Wed Aug 07 13:13:28.518278 2019] [ssl:info] [pid 15:tid 139817409396800] AH01883: Init: Initialized OpenSSL library
+[Wed Aug 07 13:13:28.519866 2019] [mpm_event:notice] [pid 15:tid 139817409396800] AH00489: Apache/2.4.25 (Debian) OpenSSL/1.0.2s configured -- resuming normal operations
+[Wed Aug 07 13:13:28.519900 2019] [core:notice] [pid 15:tid 139817409396800] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND -e info'
+[Thu Aug 08 16:49:29.909066 2019] [ssl:info] [pid 15:tid 140413514764352] AH01883: Init: Initialized OpenSSL library
+[Thu Aug 08 16:49:29.961707 2019] [ssl:info] [pid 15:tid 140413514764352] AH01883: Init: Initialized OpenSSL library
+[Thu Aug 08 16:49:29.962940 2019] [mpm_event:notice] [pid 15:tid 140413514764352] AH00489: Apache/2.4.25 (Debian) OpenSSL/1.0.2s configured -- resuming normal operations
+[Thu Aug 08 16:49:29.962969 2019] [core:notice] [pid 15:tid 140413514764352] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND -e info'
+[Thu Aug 08 17:43:50.413622 2019] [ssl:info] [pid 8:tid 140642720460864] AH01883: Init: Initialized OpenSSL library
+[Thu Aug 08 17:43:50.455358 2019] [ssl:info] [pid 8:tid 140642720460864] AH01883: Init: Initialized OpenSSL library
+[Thu Aug 08 17:43:50.455564 2019] [core:warn] [pid 8:tid 140642720460864] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 08 17:43:50.456280 2019] [mpm_event:notice] [pid 8:tid 140642720460864] AH00489: Apache/2.4.25 (Debian) OpenSSL/1.0.2s configured -- resuming normal operations
+[Thu Aug 08 17:43:50.456302 2019] [core:notice] [pid 8:tid 140642720460864] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND -e info'
+[Thu Oct 24 01:40:41.932591 2019] [ssl:info] [pid 16:tid 140021446934592] AH01883: Init: Initialized OpenSSL library
+[Thu Oct 24 01:40:42.093303 2019] [ssl:info] [pid 16:tid 140021446934592] AH01883: Init: Initialized OpenSSL library
+[Thu Oct 24 01:40:42.094873 2019] [mpm_event:notice] [pid 16:tid 140021446934592] AH00489: Apache/2.4.25 (Debian) OpenSSL/1.0.2s configured -- resuming normal operations
+[Thu Oct 24 01:40:42.094910 2019] [core:notice] [pid 16:tid 140021446934592] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND -e info'

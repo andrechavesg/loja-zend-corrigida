@@ -1,0 +1,41 @@
+version: '3.5'
+services:
+  mysql:
+    image: mysql:5.7
+    command: "--default-authentication-plugin=mysql_native_password"
+    container_name: mysql
+    volumes:
+      - "dbdata:/var/lib/mysql"
+      - "./dump:/dump"
+    environment:
+      MYSQL_ROOT_PASSWORD: minhaSenha
+      MYSQL_DATABASE: estoquezend
+      MYSQL_USER: estoquezend
+      MYSQL_PASSWORD: minhaSenha
+    ports:
+      - 3306:3306
+    networks:
+      - network
+
+  php:
+    build: .docker/php
+    container_name: php
+    working_dir: /home/wwwroot
+    volumes:
+      - "./:/home/wwwroot:cached"
+      - "./var/logs:/app/var/logs"
+      - "./var/cache.:/app/var/cache"
+    command: bash -c "composer install && php -S 0.0.0.0:8080 -t public/"
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql
+    links:
+      - mysql
+    networks:
+      - network
+networks:
+  network:
+
+volumes:
+  dbdata:
